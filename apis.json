@@ -1,0 +1,166 @@
+{
+	"name": "Streadata.io API Gallery - Secrets",
+	"description": "This is a repository of secrets APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/secrets.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://secrets.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Pinboard",
+			"x-api-slug": "pinboard",
+			"description": "Pinboard is a bookmarking website for introverted people in a hurry. The focus of the site is less on socializing, and more on speed and utility. Pinboard tries to offer useful features without getting in your way. My highest priority is keeping your data safe over the long term.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg",
+			"humanURL": "http://pinboard.in",
+			"baseURL": "https://api.pinboard.in//v1",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/pinboard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SoundCloud",
+			"x-api-slug": "soundcloud",
+			"description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Start listening now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg",
+			"humanURL": "http://soundcloud.com",
+			"baseURL": "https://api.soundcloud.com//",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kubernetes",
+			"x-api-slug": "kubernetes",
+			"description": "Manage a cluster of Linux containers as a single system to accelerate Dev and simplify Ops. Kubernetes is an open source orchestration system for Docker containers. It handles scheduling onto nodes in a compute cluster and actively manages workloads to ensure that their state matches the users declared intentions. Using the concepts of labels and pods, it groups the containers which make up an application into logical units for easy management and discovery.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png",
+			"humanURL": "http://kubernetes.io/",
+			"baseURL": ":///api/v1beta3/127.0.0.1:6443",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"x-api-slug": "azure-devtest-labs",
+			"description": "Azure DevTest Labs makes it easy to quickly create environments to deploy and test applications. Use reusable templates and artifacts to build Windows and Linux environments while minimalizing waste and controlling costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/devtest-lab/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/azure-devtest-labs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Paylocity",
+			"x-api-slug": "paylocity",
+			"description": "Paylocity has delivered industry-leading software and unmatched customer service since our inception. Our mission of elevating payroll and human resources across the backroom and into the boardroom speaks to just that. Today, Paylocity continues to develop innovative solutions that simplify the lives of payroll and HR professionals across the country. Through powerful analytics, robust reporting, intuitive usability, and modern functionality&mdash;our clients increase efficiency and manage workforces more effectively.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-paylocity.jpg",
+			"humanURL": "http://www.paylocity.com",
+			"baseURL": "https://api.paylocity.com//api",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/paylocity/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "uebermaps",
+			"x-api-slug": "uebermaps",
+			"description": "uebermaps is a platform for everyone to create and share maps with your favorite spots. uebermaps are interactive maps that enable people to collect interesting places, collaborate, upload photos and share your public or private maps with your friends and family. If you use uebermaps for your mapping community, as a tour guide for friends or as your unlimited geo storage is up to you.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png",
+			"humanURL": "http://uebermaps.com",
+			"baseURL": "https://uebermaps.com//api/v2",
+			"tags": "Secrets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/uebermaps/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Secrets",
+	"include": [
+		{
+			"name": "Pinboard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/pinboard/apis.yaml"
+		},
+		{
+			"name": "SoundCloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/apis.yaml"
+		},
+		{
+			"name": "Kubernetes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apis.yaml"
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/azure-devtest-labs/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Paylocity",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/paylocity/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "uebermaps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/uebermaps/apis.yaml"
+		}
+	]
+}

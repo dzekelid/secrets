@@ -12,11 +12,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-payl
 x-kinRank: "7"
 x-alexaRank: "6810"
 tags: Secrets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/paylocity/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Paylocity - Obtain new client secret.
+  x-api-slug: v2credentialssecrets-post
+  description: Obtain new client secret for Paylocity-issued client id. See Setup
+    section for details.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-paylocity.jpg
+  humanURL: http://www.paylocity.com
+  baseURL: https://api.paylocity.com//api
+  tags: Payments, API Provider, Human Resources, Payroll, SaaS, Technology, Enterprise,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/paylocity/v2credentialssecrets-post-openapi.md
 x-common:
 - type: x-website
   url: http://www.paylocity.com

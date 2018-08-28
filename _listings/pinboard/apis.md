@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboa
 x-kinRank: "9"
 x-alexaRank: "45688"
 tags: Secrets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/pinboard/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Pinboard - Get User Secret
+  x-api-slug: usersecret-get
+  description: Get the secret RSS token (allows viewing user's private RSS feeds).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
+  humanURL: http://pinboard.in
+  baseURL: https://api.pinboard.in//v1
+  tags: Bookmarks, Links, My API Stack, Indie EdTech Data Jam, Stack Network, Stack,
+    Technology, internet, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/pinboard/usersecret-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/pinboard/usersecret-get-openapi.md
 - name: Pinboard - Get User Secret
   x-api-slug: usersecret-get
   description: Get the secret RSS token (allows viewing user's private RSS feeds).

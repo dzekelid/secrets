@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundc
 x-kinRank: "9"
 x-alexaRank: "112"
 tags: Secrets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/apis.md
 specificationVersion: "0.14"
 apis:
@@ -137,6 +137,68 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-format-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-format-put-openapi.md
+- name: Sound Cloud - Put Tracks Track Secret Token. Format
+  x-api-slug: trackstrack-idsecrettoken-format-put
+  description: |-
+    Resets the secret token for a track by track id. The secret token can not be specified but will be randomly chosen on
+                        the server and returned. This resource can only be used by the track owner.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
+  humanURL: http://soundcloud.com
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-format-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-format-put-openapi.md
+- name: Sound Cloud - Get Tracks Track Secret Token. Format
+  x-api-slug: trackstrack-idsecrettoken-format-get
+  description: Returns the secret token for a track by track id. This resource can
+    only be used by the track owner.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
+  humanURL: http://soundcloud.com
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-format-get-openapi.md
+- name: Sound Cloud - Put Tracks Track Secret Token
+  x-api-slug: trackstrack-idsecrettoken-json-put
+  description: |-
+    Resets the secret token for a track by track id. The secret token can not be specified but will be randomly chosen on
+              the server and returned. This resource can only be used by the track owner.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
+  humanURL: http://soundcloud.com
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-json-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-json-put-openapi.md
+- name: Sound Cloud - Get Tracks Track Secret Token
+  x-api-slug: trackstrack-idsecrettoken-json-get
+  description: Returns the secret token for a track by track id. This resource can
+    only be used by the track owner.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
+  humanURL: http://soundcloud.com
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/soundcloud/trackstrack-idsecrettoken-json-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://smartbear.software.api.gallery.streamdata.io

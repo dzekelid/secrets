@@ -11,11 +11,209 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Secrets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Kubernetes - Get Namespaces Secrets
+  x-api-slug: apiv1beta3namespacesnamespacessecrets-get
+  description: List objects of kind secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecrets-get-openapi.md
+- name: Kubernetes - Post Namespaces Secrets
+  x-api-slug: apiv1beta3namespacesnamespacessecrets-post
+  description: Create a secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecrets-post-openapi.md
+- name: Kubernetes - Delete Namespaces Secrets Name
+  x-api-slug: apiv1beta3namespacesnamespacessecretsname-delete
+  description: Delete a secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecretsname-delete-openapi.md
+- name: Kubernetes - Get Namespaces Secrets Name
+  x-api-slug: apiv1beta3namespacesnamespacessecretsname-get
+  description: Read the specified secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecretsname-get-openapi.md
+- name: Kubernetes - Put Namespaces Secrets Name
+  x-api-slug: apiv1beta3namespacesnamespacessecretsname-put
+  description: Update the specified secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecretsname-put-openapi.md
+- name: Kubernetes - Get Secrets
+  x-api-slug: apiv1beta3secrets-get
+  description: List objects of kind secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3secrets-get-openapi.md
+- name: Kubernetes - Get Watch Namespaces Secrets
+  x-api-slug: apiv1beta3watchnamespacesnamespacessecrets-get
+  description: Watch a list of secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3watchnamespacesnamespacessecrets-get-openapi.md
+- name: Kubernetes - Get Watch Namespaces Secrets Name
+  x-api-slug: apiv1beta3watchnamespacesnamespacessecretsname-get
+  description: Watch a particular secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3watchnamespacesnamespacessecretsname-get-openapi.md
+- name: Kubernetes - Get Watch Secrets
+  x-api-slug: apiv1beta3watchsecrets-get
+  description: Watch a list of secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3watchsecrets-get-openapi.md
+- name: Kubernetes - Get Namespaces Secrets
+  x-api-slug: apiv1beta3namespacesnamespacessecrets-get
+  description: List objects of kind secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecrets-get-openapi.md
+- name: Kubernetes - Post Namespaces Secrets
+  x-api-slug: apiv1beta3namespacesnamespacessecrets-post
+  description: Create a secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecrets-post-openapi.md
+- name: Kubernetes - Delete Namespaces Secrets Name
+  x-api-slug: apiv1beta3namespacesnamespacessecretsname-delete
+  description: Delete a secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecretsname-delete-openapi.md
+- name: Kubernetes - Get Namespaces Secrets Name
+  x-api-slug: apiv1beta3namespacesnamespacessecretsname-get
+  description: Read the specified secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecretsname-get-openapi.md
+- name: Kubernetes - Put Namespaces Secrets Name
+  x-api-slug: apiv1beta3namespacesnamespacessecretsname-put
+  description: Update the specified secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3namespacesnamespacessecretsname-put-openapi.md
+- name: Kubernetes - Get Secrets
+  x-api-slug: apiv1beta3secrets-get
+  description: List objects of kind secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3secrets-get-openapi.md
+- name: Kubernetes - Get Watch Namespaces Secrets
+  x-api-slug: apiv1beta3watchnamespacesnamespacessecrets-get
+  description: Watch a list of secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3watchnamespacesnamespacessecrets-get-openapi.md
+- name: Kubernetes - Get Watch Namespaces Secrets Name
+  x-api-slug: apiv1beta3watchnamespacesnamespacessecretsname-get
+  description: Watch a particular secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3watchnamespacesnamespacessecretsname-get-openapi.md
+- name: Kubernetes - Get Watch Secrets
+  x-api-slug: apiv1beta3watchsecrets-get
+  description: Watch a list of secret.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png
+  humanURL: http://kubernetes.io/
+  baseURL: :///api/v1beta3/127.0.0.1:6443
+  tags: Containers, Google, Stack Network, API Service Provider, Containers, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secrets/master/_listings/kubernetes/apiv1beta3watchsecrets-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://knoema.api.gallery.streamdata.io
